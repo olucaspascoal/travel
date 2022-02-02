@@ -2,7 +2,7 @@
 
 .main{
     padding: 0 2rem;
-    height: calc(100vh - 200px);
+    height: calc(100vh - 230px);
     color: $color-white;
     display: flex;
     justify-content: space-between;
@@ -27,12 +27,15 @@
     &-btn{
         width: 10%;
         margin-top: 1rem;
+        text-align: center;
         padding:  .7rem 1rem;
         border-radius: 100px;
-        text-align: center;
         background-color: $color-yellow;
+        transition: .3s;
         &:hover{
             cursor: pointer;
+            color: $color-yellow;
+            background-color: $color-white;
         }
     }
     &-year{
